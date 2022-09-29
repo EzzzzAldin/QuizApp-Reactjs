@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: cornflowerblue;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.app .question-content {
+  margin-bottom: 30px;
+}
+
+.app .question-content span {
+  font-size: 28px;
+}
+
+.app .question-text {
+  font-size: 18px;
+}
+
+.app .answers-section button {
+  width: 100%;
+  background-color: #1b2e3d;
+  border: 5px solid #1e3649;
+  padding: 5px;
+  border-radius: 25px;
+  color: #fff;
+  font-family: cursive;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.app .answers-section button:hover {
+  background-color: #1e3649;
+  border-color: #1b2e3d;
+  transform: scale(1.1);
+  width: 95%;
+  font-weight: bold;
+}
